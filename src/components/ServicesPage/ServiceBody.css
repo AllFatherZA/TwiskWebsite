@@ -1,0 +1,21 @@
+.banner-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 0px;
+}
+
+/* Media query for laptop screens */
+@media (min-width: 1024px) {
+  .banner-section {
+    font-size: 30px; /* Increase the font size for laptops */
+  }
+}
