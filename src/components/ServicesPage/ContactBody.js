@@ -1,29 +1,45 @@
 import '../../App.css'
-import './ServiceBody.css'
-import physics from '../images/twisklogo.png'
+import React, { useRef,useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 
-const Contact=()=>{
+
+
+export const Contact=()=>{
+  const form = useRef();
+  const [status,setStatus] =useState({});
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('default_service', 'template_w9xqpvc', form.current, 'bZMz1yOYejFgN-TxJ')
+      .then((result) => {
+          console.log(result.text);
+          setStatus({success:true,message:'Message sent successfully'});
+      }, (error) => {
+          console.log(error.text);
+          setStatus({success:false,message:'Something went wrong,please try again later'});
+      });
+  };
 
  return(
-
-        <div className="services-container">
-           <section class="banner-section">
-                <img class="banner-image" src={physics} alt="Blockchain" height={100} width={150}/>
-                <h1>Contact</h1>
-                <div class="content">
-                <p>
-                You can also reach us via email at twisk0000@gmail.com or by calling our cell number at +27794309027. We value your feedback, inquiries, and business opportunities. We look forward to hearing from you soon!
-                </p>
-                
-                </div>
-            </section>
-        </div>
-
-        
-
-
+    <>
+      <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Phone</label>
+      <input type='tel' name='user_phone'/>
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+      {
+                                status.message&&
+                                    <p className={status.success===false? "danger":"success"}>{status.message}</p>
+                            }
+    </form>
+    </>
     );
 
 }
