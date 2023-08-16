@@ -90,3 +90,25 @@ input[type="submit"] {
   color: #fff;
   border: none
 }
+
+.item-bx{
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -37px;
+  margin-bottom: -36px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow to .item-bx */
+  border-radius: 40px; /* Add border radius for a softer look */
+}
+
+.background-image {
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  overflow:hidden;
+}
+

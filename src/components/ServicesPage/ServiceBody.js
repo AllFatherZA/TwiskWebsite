@@ -1,24 +1,23 @@
 import '../../App.css'
 import './ServiceBody.css'
-import Blockchain from '../images/smartcontract.png'
-import FullStack from '../images/server.jpg'
-import NeuralNetwork from '../images/NeuralNetwork.jpg'
-import mobile from '../images/mobile.jpg'
-import physics from '../images/physics.png'
 
 const ServiceBody=()=>{
     return(
         <div className="services-container">
            <section class="banner-section">
-                <img class="banner-image" src={Blockchain} alt="Blockchain"/>
+                <div className='item-bx'>
                 <h1>Blockchain</h1>
                 <div class="content">
                 <p>Blockchain technology is a revolutionary concept that has gained significant attention in recent years. It is a decentralized and distributed digital ledger that records transactions across multiple computers or nodes, making it secure, transparent, and tamper-resistant. At its core, blockchain enables the secure transfer of data or assets without the need for intermediaries like banks or governments.
                  we offer services ranging from smart contracts to NFT minting and crytpo technologies advicement services.
                 </p>
                 </div>
+                </div>
 
-                <img class="banner-image" src={mobile} alt="Blockchain"/>
+                <div className='background-image'>
+                <iframe src="https://giphy.com/embed/3oEduIBjrydlnXYrAI" Title="Starwars" width="480" height="376" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='item-bx'>
                 <h1>UI/UX Design</h1>
                 <div class="content">
                 <p>
@@ -26,8 +25,12 @@ const ServiceBody=()=>{
                 ultimately helping our clients achieve their business goals.
                 </p>
                 </div>
-
-                <img class="banner-image" src={FullStack} alt="Blockchain"/>
+                </div>
+                
+                <div className='background-image'>
+                <iframe src="https://giphy.com/embed/26FPNS5L0v9wEF6ko" Title="Starwars" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='item-bx'>
                 <h1>Native App Development</h1>
                 <div class="content">
                 <p>
@@ -36,8 +39,11 @@ const ServiceBody=()=>{
                   Reach a broader audience and deliver consistent, engaging apps across platforms with our Xamarin expertise.
                 </p>
                 </div>
-
-                <img class="banner-image" src={NeuralNetwork} alt="Blockchain"/>
+                </div>
+                <div className='background-image'>
+                <iframe src="https://giphy.com/embed/3oEduN21VyqC7cwTIs" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='item-bx'>
                 <h1>Machine Learing/AI Development</h1>
                 <div class="content">
                 <p>
@@ -48,10 +54,13 @@ const ServiceBody=()=>{
                 extract valuable insights from data, and enable predictive capabilities. 
                 By utilizing advanced algorithms and frameworks such as TensorFlow or PyTorch, we create customized models and applications tailored to our clients' specific needs. Whether it's natural language processing, computer vision, or predictive analytics, our team of skilled data scientists and engineers ensures the successful implementation of AI and machine learning solutions, driving innovation and efficiency for our clients' businesses.
                 </p>
-                
                 </div>
-
-                <img class="banner-image" src={physics} alt="Blockchain"/>
+                </div>
+                
+                <div className='background-image'>
+                <iframe src="https://giphy.com/embed/3o7abpQzRWVA99CAI8" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='item-bx'>
                 <h1>Web Development</h1>
                 <div class="content">
                 <p>
@@ -59,8 +68,8 @@ const ServiceBody=()=>{
                 With React's component-based architecture and efficient state management, 
                 we build reusable UI components and establish seamless communication with the backend
                 . We follow a structured workflow that encompasses planning, designing, implementation, testing, and deployment. By leveraging React's ecosystem and community support, we deliver modern and scalable applications, while staying agile in addressing user feedback and making iterative improvements. Our team is dedicated to providing high-quality, user-centric software solutions through the power of React.
-                </p>
-                
+                </p>         
+                </div>
                 </div>
             </section>
         </div>
