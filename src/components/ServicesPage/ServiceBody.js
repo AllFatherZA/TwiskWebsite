@@ -1,9 +1,18 @@
-import '../../App.css'
+
 import './ServiceBody.css'
+import NeuralNet from '../images/NeuralNetwork.jpg'
+import NativeApp from '../images/mobile.jpg'
+import BlockChain from '../images/blockchain.png'
+import WebApp from '../images/physics.png'
+import Fantasy from '../images/fantastic.jpg'
+
 
 const ServiceBody=()=>{
     return(
         <div className="services-container">
+           <section className='Paragraph'>
+           <h1>Services</h1>
+           </section>
            <section class="banner-section">
                 <div className='item-bx'>
                 <h1>Blockchain</h1>
@@ -14,8 +23,11 @@ const ServiceBody=()=>{
                 </div>
                 </div>
 
-                <div className='background-image'>
+                <div className='background-image-frame'>
                 <iframe src="https://giphy.com/embed/3oEduIBjrydlnXYrAI" Title="Starwars" width="480" height="376" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='background-image-image'>
+                <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
                 </div>
                 <div className='item-bx'>
                 <h1>UI/UX Design</h1>
@@ -27,8 +39,11 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 
-                <div className='background-image'>
+                <div className='background-image-frame'>
                 <iframe src="https://giphy.com/embed/26FPNS5L0v9wEF6ko" Title="Starwars" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='background-image-image'>
+                <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
                 </div>
                 <div className='item-bx'>
                 <h1>Native App Development</h1>
@@ -40,8 +55,11 @@ const ServiceBody=()=>{
                 </p>
                 </div>
                 </div>
-                <div className='background-image'>
+                <div className='background-image-frame'>
                 <iframe src="https://giphy.com/embed/3oEduN21VyqC7cwTIs" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='background-image-image'>
+                <img src={BlockChain} alt='Desktop Image'/>
                 </div>
                 <div className='item-bx'>
                 <h1>Machine Learing/AI Development</h1>
@@ -57,8 +75,11 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 
-                <div className='background-image'>
+                <div className='background-image-frame'>
                 <iframe src="https://giphy.com/embed/3o7abpQzRWVA99CAI8" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div className='background-image-image'>
+                <img src={WebApp} alt='Desktop Image'/>
                 </div>
                 <div className='item-bx'>
                 <h1>Web Development</h1>
@@ -73,10 +94,6 @@ const ServiceBody=()=>{
                 </div>
             </section>
         </div>
-
-        
-
-
     );
 
 }

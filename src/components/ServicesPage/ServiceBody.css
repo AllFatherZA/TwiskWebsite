@@ -1,6 +1,7 @@
 .banner-section {
   text-align: center;
   padding: 50px 0;
+  color:white;
 }
 
 .banner-image {
@@ -12,6 +13,7 @@
 .content {
   margin-top: 0px;
 }
+
 
 /* Media query for laptop screens */
 @media (min-width: 1024px) {
