@@ -24,7 +24,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3oEduIBjrydlnXYrAI" Title="Starwars" width="480" height="376" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/tFQePGovpWcPzOJz1r" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IkejaWireless-heritageday-braaiday-happyheritageday-tFQePGovpWcPzOJz1r">via GIPHY</a></p>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -40,7 +40,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/26FPNS5L0v9wEF6ko" Title="Starwars" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/0ftlv3lxv8Z815mkXH" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ikeja-ikejawifi-ikejawireless-0ftlv3lxv8Z815mkXH">via GIPHY</a></p>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -56,7 +56,7 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3oEduN21VyqC7cwTIs" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/UXtlmhzDvaNA8hmMCD" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IkejaWireless-ikeja-ikejawifi-ikejawireless-UXtlmhzDvaNA8hmMCD">via GIPHY</a></p>
                 </div>
                 <div className='background-image-image'>
                 <img src={BlockChain} alt='Desktop Image'/>
@@ -76,7 +76,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3o7abpQzRWVA99CAI8" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/GCIrFvxMlA5AyIrWXO" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IkejaWireless-ikeja-ikejawifi-ikejawireless-GCIrFvxMlA5AyIrWXO">via GIPHY</a></p>
                 </div>
                 <div className='background-image-image'>
                 <img src={WebApp} alt='Desktop Image'/>
@@ -97,5 +97,4 @@ const ServiceBody=()=>{
     );
 
 }
-
 export default  ServiceBody;
