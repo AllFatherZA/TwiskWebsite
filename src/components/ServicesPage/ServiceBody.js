@@ -24,7 +24,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/FwKsctbw412x7VRbyg" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/HollerStudios-animation-reaction-gif-holler-studios-FwKsctbw412x7VRbyg">via GIPHY</a></p>
+                <iframe src="https://giphy.com/embed/3oEduIBjrydlnXYrAI" Title="Starwars" width="480" height="376" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -40,7 +40,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/k5GcybwY1yybmGwrFg" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/k5GcybwY1yybmGwrFg">via GIPHY</a></p>
+                <iframe src="https://giphy.com/embed/26FPNS5L0v9wEF6ko" Title="Starwars" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -56,7 +56,7 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/xLiuPwRKGGTUACgVX0" width="352" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MerckKGaADarmstadtGermany-science-curious-alwayscurious-xLiuPwRKGGTUACgVX0">via GIPHY</a></p>
+                <iframe src="https://giphy.com/embed/3oEduN21VyqC7cwTIs" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={BlockChain} alt='Desktop Image'/>
@@ -76,7 +76,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/BSa7fOo33GeT6RuVuk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/eating-black-girl-women-BSa7fOo33GeT6RuVuk">via GIPHY</a></p>
+                <iframe src="https://giphy.com/embed/3o7abpQzRWVA99CAI8" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={WebApp} alt='Desktop Image'/>
@@ -97,5 +97,4 @@ const ServiceBody=()=>{
     );
 
 }
-
 export default  ServiceBody;
