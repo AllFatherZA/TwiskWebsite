@@ -126,6 +126,7 @@ input[type="submit"] {
   z-index: -1;
   overflow:hidden;
   display: block;
+  margin-right:50px;
 
 }
 

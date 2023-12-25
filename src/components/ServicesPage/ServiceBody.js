@@ -24,7 +24,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3oEduIBjrydlnXYrAI" Title="Starwars" width="480" height="376" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/H3H1SHAFwddmHmSy9G" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -40,7 +40,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/26FPNS5L0v9wEF6ko" Title="Starwars" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/Zd1Bkx83t9axyHpGKm" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -56,7 +56,7 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3oEduN21VyqC7cwTIs" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/YN1IjQimzfanElsGA1" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={BlockChain} alt='Desktop Image'/>
@@ -76,7 +76,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/3o7abpQzRWVA99CAI8" Title="Starwars" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/daDEXjrfWPffe5IIq0" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={WebApp} alt='Desktop Image'/>
