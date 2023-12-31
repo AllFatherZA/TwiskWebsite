@@ -1,5 +1,6 @@
 
 import './ServiceBody.css'
+import '../../App.css'
 import NeuralNet from '../images/NeuralNetwork.jpg'
 import NativeApp from '../images/mobile.jpg'
 import BlockChain from '../images/blockchain.png'
@@ -24,7 +25,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/H3H1SHAFwddmHmSy9G" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/8It0HNrGjcTT2" width="480" height="480" frameBorder="0" allowFullScreen="True"></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -40,7 +41,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/Zd1Bkx83t9axyHpGKm" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/yf21xZZxq2KO1zrlmM" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -76,7 +77,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/daDEXjrfWPffe5IIq0" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/l4pTjOu0NsrLApt0Q" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={WebApp} alt='Desktop Image'/>

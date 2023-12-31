@@ -1,6 +1,6 @@
-.cards {
+.Cards {
     padding: 4rem;
-    background-image: url('../images/backgroundone.jpg');
+    background-image: url('../images/newyear2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,6 +18,7 @@
     width: 90%;
     margin: 0 auto;
     margin-bottom: 2rem;
+    background-color: #fff;
   }
   
   .cards__wrapper {
