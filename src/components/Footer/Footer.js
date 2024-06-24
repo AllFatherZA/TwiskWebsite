@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
-import TwiskLogo from '../images/twisklogo.png'
+import TwiskLogo from '../images/twisklogo.png';
 
 function Footer() {
   return (
@@ -44,7 +44,7 @@ function Footer() {
               <img src={TwiskLogo} alt='twisk logo' width="150" height="200"/>
             </Link>
           </div>
-          <small class='website-rights'>Twisk © 2023</small>
+          <small class='website-rights'>Twisk © 2024</small>
         </div>
       </section>
     </div>

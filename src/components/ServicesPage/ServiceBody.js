@@ -25,7 +25,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/8It0HNrGjcTT2" width="480" height="480" frameBorder="0" allowFullScreen="True"></iframe>
+                <iframe src="https://giphy.com/embed/iRIf7MAdvOIbdxK4rR" width="480" height="480" frameBorder="0" allowFullScreen="True"></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -41,7 +41,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/yf21xZZxq2KO1zrlmM" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/Vjfij7r9Y2mBJZqtzA" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -57,7 +57,7 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/YN1IjQimzfanElsGA1" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/NyLyi6zNVTTukqVz4N" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={BlockChain} alt='Desktop Image'/>

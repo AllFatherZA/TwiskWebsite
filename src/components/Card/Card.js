@@ -9,7 +9,7 @@ import Xamarin from '../images/xamarin.jpg'
 function Cards(){
     return(
         <div className="Cards">
-            <h1>Check out the services we have to Offer</h1>
+            <h1 className="Card_H1">Check out the services we have to Offer</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="card__items">
