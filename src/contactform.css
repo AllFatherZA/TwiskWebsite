@@ -1,0 +1,73 @@
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-image{
+    background-color: transparent;
+    max-width: 80%; /* Image shrinks with its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Avoid whitespace below the image */
+  }
+  
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+  }
+  
+  .contact-left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-left-title hr{
+    border:none;
+    width: 120px;
+    height:5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-inputs{
+    width: 400px;
+    height:50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    
+  }
+
+  .contact-label{
+    color: seashell;
+  }
+
+  /* Media query for mobile view */
+@media (max-width: 768px) {
+  .contact-container {
+    justify-content: flex-start;
+    padding-top: 40px; /* Adjust padding for mobile */
+  }
+
+  .contact-left-title h2 {
+    font-size: 30px; /* Reduced font size for mobile */
+  }
+
+  .contact-left-title hr {
+    width: 80px; /* Adjusted width for mobile */
+  }
+
+  .contact-inputs {
+    width: 100%; /* Take up full width on mobile */
+    height: 45px; /* Adjust input height */
+    padding-left: 15px; /* Reduce padding */
+  }
+
+}
