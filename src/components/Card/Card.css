@@ -1,13 +1,26 @@
 .Cards {
     padding: 4rem;
-    background-image: url('../images/africa.jpg');
-    background-size: cover;
+    background: linear-gradient(135deg, #ff6f61, #ffde7d, #6bdf67, #50b3f3, #d383f4);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s ease infinite;
     background-repeat: no-repeat;
     background-position: center;
   }
   
   h1 {
     text-align: center;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   
   .cards__container {
