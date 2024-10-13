@@ -1,96 +1,102 @@
-*{
-  box-sizing:border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* Submit button styles */
-input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-input[type="submit"]:hover {
-  background-color: #0056b3;
-}
-.submit {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.submit:hover {
-  background-color: #0056b3;
-}
-
-
-
-
-
-
-input[type="submit"] {
-  display: block;
-  padding: 6px 30px;
-  font-size: 14px;
-  background-color: #4460AA;
-  color: #fff;
-  border: none
-}
-
-.item-bx{
-  background: #151515;
-  border-radius: 64px;
+.App {
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -37px;
-  margin-bottom: -36px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow to .item-bx */
-  border-radius: 40px; /* Add border radius for a softer look */
 }
 
-.item-bx .p{
-  color:#808080;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.background-image-frame {
-
-  position:relative;
-  width: 100%;
-  z-index: -30;
-  display: none;
-  margin-left: -60px;
-}
-
-.background-image-image {
-  object-fit: cover;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-  overflow:hidden;
-  display: block;
-}
-
-@media screen and (max-width: 768px) {
-  .background-image-frame {
-      display: block;
-  }
-
-  .background-image-image {
-      display: none;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
+@keyframes moveImage {
+  0% {
+    left: -100%; /* Starts from off-screen left */
+  }
+  100% {
+    left: 100%; /* Ends off-screen right */
+  }
+}
+
+.animated-image {
+  position: absolute;
+  top: 10%; /* Center vertically */
+  left: -100%; /* Start the image off-screen to the left */
+  transform: translateY(-50%); /* Center vertically */
+  animation: moveImage 10s linear infinite; /* Adjust the duration (10s) as desired */
+}
+
+.App-header {
+  background-image:url(./components/images/img1.png);
+  min-height: 100vh;
+  background-size: cover;}
+
+.App-header {
+  background-image:url(./components/images/img1.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+}
+
+.countdown-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 55px;
+  color: #e0e0e0;
+}
+
+.countdown-display {
+  font-size: 36px;
+  color: #4CAF50;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
 
 
+/* Default image size for desktop */
+.img-cloud {
+  width: 200px; /* Adjust image size for desktop */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .img-cloud {
+    width: 150px; /* Adjust image size for mobile */
+  }
+}
