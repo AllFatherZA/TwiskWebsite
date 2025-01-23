@@ -5,7 +5,7 @@ import Blockchain from '../images/blockchain.png';
 import NativeApp from '../images/mobile.jpg';
 import NeuralNet from '../images/NeuralNetwork.jpg';
 import Xamarin from '../images/xamarin.jpg';
-import ValentinesVideo from '../images/valentines.mp4'; // Import the video file
+import ValentinesVideo from '../images/hearts2.mp4';
 
 function Cards() {
     return (
