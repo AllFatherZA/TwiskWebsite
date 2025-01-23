@@ -25,7 +25,7 @@ const ServiceBody=()=>{
                 </div>
 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/iRIf7MAdvOIbdxK4rR" width="480" height="480" frameBorder="0" allowFullScreen="True"></iframe>
+                <iframe src="https://giphy.com/embed/TRebCjNbc4dIA" width="480" height="480" frameBorder="0" allowFullScreen="True"></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={Fantasy} width="1200" height="600" alt='Desktop Image' />
@@ -41,7 +41,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/Vjfij7r9Y2mBJZqtzA" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/tSnMLUJRoJdFC" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={NativeApp} width="1200" height="600" alt='Desktop Image'/>
@@ -57,7 +57,7 @@ const ServiceBody=()=>{
                 </div>
                 </div>
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/NyLyi6zNVTTukqVz4N" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/rzeWnbH8Uc5Y4" width="480" height="479" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={BlockChain} alt='Desktop Image'/>
@@ -77,7 +77,7 @@ const ServiceBody=()=>{
                 </div>
                 
                 <div className='background-image-frame'>
-                <iframe src="https://giphy.com/embed/QQ1K0jv4JyUR750vrr" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/BYHdOVbmtGdDDq13Bb" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
                 <div className='background-image-image'>
                 <img src={WebApp} alt='Desktop Image'/>
