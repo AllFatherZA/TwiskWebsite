@@ -10,11 +10,6 @@ import ValentinesVideo from '../images/hearts3.mp4';
 function Cards() {
     return (
         <div className="Cards">
-            {/* Video Background */}
-            <video className="video-bg" autoPlay muted loop>
-                <source src={ValentinesVideo} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
 
             {/* Content */}
             <h1 className="Card_H1">Check out the services we have to Offer</h1>
